@@ -39,7 +39,7 @@ export default function WeatherForecaster() {
     <main>
       <style>{`
         :root{--primary:#0f172a;--accent:#3b82f6;--background:#1e293b;--card-bg:#0f172a;--text-main:#e2e8f0}
-        .wf-wrapper{padding:50px 20px;display:flex;justify-content:center;align-items:center;min-height:calc(100vh - 70px);background:var(--background)}
+        .wf-wrapper{padding:50px 20px;display:flex;justify-content:center;align-items:center;min-height:calc(100vh - 70px);background: #020617;}
         .utility-card{background:var(--card-bg);border-radius:12px;padding:40px;box-shadow:0 10px 25px -5px rgba(0,0,0,0.3),0 8px 10px -6px rgba(0,0,0,0.3);max-width:600px;width:100%;text-align:center;border:1px solid #1e293b}
         .utility-card h1{color:var(--accent);font-size:24px;font-weight:700;margin-top:0;margin-bottom:8px}
         .description{color:#94a3b8;font-size:14px;line-height:1.5;margin-bottom:30px}
@@ -52,19 +52,19 @@ export default function WeatherForecaster() {
         .success{background:#065f46;color:#d1fae5;border:1px solid #6ee7b7}
         .error{background:#7f1d1d;color:#fee2e2;border:1px solid #fca5a5}
         .weather-data{margin-top:30px;text-align:left}
-        .weather-card{background:linear-gradient(135deg,#1e3a8a 0%,#1e40af 100%);color:white;padding:20px;border-radius:8px;margin-bottom:15px}
+        .weather-card{background: rgba(15, 23, 42, 0.96);color:white;padding:20px;border-radius:8px;margin-bottom:15px}
         .weather-card h2{margin:0 0 15px 0;font-size:20px}
         .weather-info{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-top:15px}
-        .info-item{background:rgba(255,255,255,0.1);padding:12px;border-radius:6px}
+        .info-item{background: rgba(56, 189, 248, 0.14);padding:12px;border-radius:6px}
         .info-label{font-size:12px;opacity:0.9;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px}
         .info-value{font-size:18px;font-weight:700}
-        .condition-info{display:flex;align-items:center;gap:15px;padding:15px;background:rgba(255,255,255,0.1);border-radius:6px;margin-bottom:15px}
+        .condition-info{display:flex;align-items:center;gap:15px;padding:15px;background: rgba(56, 189, 248, 0.14);border-radius:6px;margin-bottom:15px}
         .condition-icon{font-size:48px}
         .condition-text .text{font-size:16px;font-weight:600}
         .condition-text .temp{font-size:24px;font-weight:700;margin-top:5px}
       `}</style>
 
-      <div className="wf-wrapper">
+      <div className="Weather-section wf-wrapper">
         <div className="utility-card">
           <h1>Weather Forecast</h1>
           <p className="description">Fetching weather information from public API.</p>

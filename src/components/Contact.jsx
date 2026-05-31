@@ -29,7 +29,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="contact-section py-5">
+    <section id="contact" className="contact-section">
       <div className="container py-4 my-5">
         <div className="row justify-content-center">
           <div className="col-lg-8">
@@ -106,13 +106,13 @@ export default function Contact() {
               <div className="contact-links mt-5 pt-5 border-top border-secondary text-center">
                 <h4 className="fw-bold mb-4">Or connect with me on</h4>
                 <div className="d-flex gap-3 justify-content-center flex-wrap">
-                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">
+                  <a href="https://github.com/prasoon9336" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">
                     <i className="bi bi-github me-2"></i>GitHub
                   </a>
-                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="btn btn-outline-info">
-                    <i className="bi bi-linkedin me-2"></i>LinkedIn
+                  <a href="https://instagram.com/prasoon._.2004/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-info">
+                    <i className="bi bi-instagram me-2"></i>Instagram
                   </a>
-                  <a href="mailto:contact@example.com" className="btn btn-outline-light">
+                  <a href="mailto:prasoonsrivastava44@gmail.com" className="btn btn-outline-light">
                     <i className="bi bi-envelope me-2"></i>Email
                   </a>
                 </div>

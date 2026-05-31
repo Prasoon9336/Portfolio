@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About() {
   const bulletPoints = [
-    'BCA Student / Graduate',
+    'BCA Student',
     'Remote Work Ready',
     'Continuous Learner',
     'Available for Freelance',
