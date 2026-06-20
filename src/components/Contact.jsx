@@ -25,6 +25,7 @@ export default function Contact() {
       setTimeout(() => setStatus(''), 3000);
     } else {
       setStatus('Please fill out all fields');
+      setTimeout(() => setStatus(''), 3000);
     }
   };
 

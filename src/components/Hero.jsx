@@ -17,6 +17,7 @@ export default function Hero({ onNavigate }) {
         <div className="hero-icon">
           <i className="bi bi-code-square" aria-hidden="true"></i>
         </div>
+        <img id="Image" width="200" height="200" className="rounded mx-auto d-block" src="https://res.cloudinary.com/dp2mxstew/image/upload/v1781967834/Screenshot_2026-04-12_000550_czecw5.png"></img>
         <p className="hero-eyebrow">Hi, my name is</p>
         <h1 className="hero-title">Prasoon Srivastava</h1>
         <h2 className="hero-subtitle">I build scalable software solutions.</h2>
