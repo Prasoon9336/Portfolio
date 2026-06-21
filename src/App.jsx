@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
-import Navigation from './components/Navigation';
-import HomePage from './pages/HomePage';
-import AboutPage from './pages/AboutPage';
-import ProjectsPage from './pages/ProjectsPage';
-import WeatherPage from './pages/WeatherPage';
-import ContactPage from './pages/ContactPage';
+import React, { useState } from "react";
+import Navigation from "./components/Navigation";
+import BackgroundVideo from "./components/BackgroundVideo";
+import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
+import ProjectsPage from "./pages/ProjectsPage";
+import WeatherPage from "./pages/WeatherPage";
+import ContactPage from "./pages/ContactPage";
 
 const pageComponents = {
   home: HomePage,
@@ -15,17 +16,20 @@ const pageComponents = {
 };
 
 export default function App() {
-  const [page, setPage] = useState('home');
+  const [page, setPage] = useState("home");
   const PageComponent = pageComponents[page] || HomePage;
 
   return (
-    <div className="app-shell">
+    <>
+      <div className="video-bg-fixed">
+        <BackgroundVideo />
+      </div>
       <Navigation currentPage={page} onNavigate={setPage} />
-      <div className="page-wrapper">
+      <div className="scrollable-content">
         <div key={page} className="page-content">
           <PageComponent onNavigate={setPage} />
         </div>
       </div>
-    </div>
+    </>
   );
 }

@@ -68,24 +68,24 @@ export default function WeatherForecaster() {
             transform: translateY(0);
           }
         }
-        :root{--primary:#0f172a;--accent:#3b82f6;--background:#1e293b;--card-bg:#0f172a;--text-main:#e2e8f0}
-        .wf-wrapper{padding:50px 20px;display:flex;justify-content:center;align-items:center;min-height:calc(100vh - 70px);background: #020617;}
-        .utility-card{background:var(--card-bg);border-radius:12px;padding:40px;box-shadow:0 10px 25px -5px rgba(0,0,0,0.3),0 8px 10px -6px rgba(0,0,0,0.3);max-width:600px;width:100%;text-align:center;border:1px solid #1e293b}
+        :root{--primary:#0f172a;--accent:#3b82f6;--background:transparent;--card-bg:#0f172a;--text-main:#e2e8f0}
+        .wf-wrapper{padding:50px 20px;display:flex;justify-content:center;align-items:center;min-height:calc(100vh - 70px);background: transparent;}
+        .utility-card{background:transparent; border-radius:12px; padding:40px; max-width:600px; width:100%;text-align:center}
         .utility-card h1{color:var(--accent);font-size:24px;font-weight:700;margin-top:0;margin-bottom:8px}
         .description{color:#94a3b8;font-size:14px;line-height:1.5;margin-bottom:30px}
         .input-group{display:flex;gap:10px;margin-bottom:20px}
-        .input{flex:1;padding:12px 16px;font-size:14px;border:1px solid #334155;border-radius:6px;background:#0f172a;color:var(--text-main)}
-        .input:focus{outline:none;border-color:var(--accent);background:#1e293b}
+        .input{flex:1;padding:12px 16px;font-size:14px;border:1px solid #334155;border-radius:6px;background:transparent;color:var(--text-main)}
+        .input:focus{outline:none;border-color:var(--accent);background:transparent}
         .action-btn{background:var(--accent);color:#fff;border:none;padding:12px 24px;font-size:16px;font-weight:600;border-radius:6px;cursor:pointer}
         #logStatus{margin-top:25px;padding:12px 16px;border-radius:6px;font-size:14px;font-weight:500;line-height:1.4;text-align:left}
         .processing{background:#1e40af;color:#bfdbfe;border:1px solid #3b82f6}
         .success{background:#065f46;color:#d1fae5;border:1px solid #6ee7b7}
         .error{background:#7f1d1d;color:#fee2e2;border:1px solid #fca5a5}
         .weather-data{margin-top:30px;text-align:left;animation:fadeInScale 0.6s ease-out}
-        .weather-card{background: rgba(15, 23, 42, 0.96);color:white;padding:20px;border-radius:8px;margin-bottom:15px;animation:slideUp 0.6s ease-out}
+        .weather-card{background: transparent;color:white;padding:20px;border-radius:8px;margin-bottom:15px;animation:slideUp 0.6s ease-out}
         .weather-card h2{margin:0 0 15px 0;font-size:20px;animation:slideUp 0.7s ease-out}
         .weather-info{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-top:15px}
-        .info-item{background: rgba(56, 189, 248, 0.14);padding:12px;border-radius:6px;animation:slideUpStagger 0.6s ease-out forwards;opacity:0}
+        .info-item{background: transparent;padding:12px;border-radius:6px;animation:slideUpStagger 0.6s ease-out forwards;opacity:0}
         .info-item:nth-child(1){animation-delay:0.2s}
         .info-item:nth-child(2){animation-delay:0.3s}
         .info-item:nth-child(3){animation-delay:0.4s}
@@ -94,7 +94,7 @@ export default function WeatherForecaster() {
         .info-item:nth-child(6){animation-delay:0.7s}
         .info-label{font-size:12px;opacity:0.9;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px}
         .info-value{font-size:18px;font-weight:700}
-        .condition-info{display:flex;align-items:center;gap:15px;padding:15px;background: rgba(56, 189, 248, 0.14);border-radius:6px;margin-bottom:15px;animation:slideUp 0.65s ease-out}
+        .condition-info{display:flex;align-items:center;gap:15px;padding:15px;background: transparent;border-radius:6px;margin-bottom:15px;animation:slideUp 0.65s ease-out}
         .condition-icon{font-size:48px;animation:slideUp 0.7s ease-out}
         .condition-text .text{font-size:16px;font-weight:600}
         .condition-text .temp{font-size:24px;font-weight:700;margin-top:5px}
