@@ -15,4 +15,3 @@ export default function VideoBackground() {
     </div>
   );
 }
-
