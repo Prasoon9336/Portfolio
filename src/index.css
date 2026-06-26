@@ -120,14 +120,26 @@ code {
   background: var(--code-bg);
 }
 
-/* Fixed background video layer */
-.video-bg-fixed {
+/* Fixed background layer */
+.video-bg-fixed,
+.lightfall-bg-fixed {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   z-index: 0;
+  pointer-events: none;
+}
+
+.lightfall-bg {
+  width: 100%;
+  height: 100%;
+}
+
+.lightfall-bg-fixed .lightfall-container {
+  position: absolute;
+  inset: 0;
 }
 
 /* Scrollable content on top of fixed background */
