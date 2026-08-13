@@ -24,7 +24,7 @@ export default function Projects({ onNavigate }) {
     {
       title: 'Dictionary',
       description: 'A Common React implemented Dictionary Application',
-      URL: 'https://github.com/Prasoon9336/',
+      URL: 'https://github.com/Prasoon9336/Dictionary',
       tags: ['React', 'API'],
       apptype: 'Webpage Application',
     },
