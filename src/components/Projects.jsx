@@ -21,6 +21,13 @@ export default function Projects({ onNavigate }) {
       tags: ['C#', '.NET', 'API'],
       apptype: 'Webpage Application',
     },
+    {
+      title: 'Dictionary',
+      description: 'A Common React implemented Dictionary Application',
+      URL: 'https://github.com/Prasoon9336/',
+      tags: ['React', 'API'],
+      apptype: 'Webpage Application',
+    },
   ];
 
   return (
