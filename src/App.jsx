@@ -5,6 +5,7 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ProjectsPage from "./pages/ProjectsPage";
 import WeatherPage from "./pages/WeatherPage";
+import Dictionary from "./pages/Dictionary";
 import ContactPage from "./pages/ContactPage";
 
 const pageComponents = {
@@ -12,6 +13,7 @@ const pageComponents = {
   about: AboutPage,
   projects: ProjectsPage,
   weather: WeatherPage,
+  Dictionary: Dictionary,
   contact: ContactPage,
 };
 
