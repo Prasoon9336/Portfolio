@@ -36,7 +36,7 @@ export default function Contact() {
           <div className="col-lg-8">
             <div className="contact-content">
               <h2 className="fw-bold text-center mb-3">Get In Touch</h2>
-              <p className="text-center text-light-50 mb-5">
+              <p className="text-center text-white mb-5">
                 I'd love to hear from you! Whether you have a question or just want to say hello, feel free to reach out.
               </p>
 
